@@ -1,0 +1,34 @@
+{
+  "name": "text-editor",
+  "version": "1.0.0",
+  "description": "A simple text editor",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "webpack --config webpack.common.js --watch",
+    "start": "concurrently \"npm run watch\" \"electron .\""
+  },
+  "author": "Brian Duranleau",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.18.10",
+    "@babel/preset-env": "^7.18.10",
+    "@babel/preset-react": "^7.18.6",
+    "babel-loader": "^8.2.5",
+    "colors": "^1.4.0",
+    "concurrently": "^7.3.0",
+    "css-loader": "^6.7.1",
+    "dotenv": "^16.0.1",
+    "electron": "^20.0.1",
+    "electron-is-dev": "^2.0.0",
+    "sass": "^1.54.4",
+    "sass-loader": "^13.0.2",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
