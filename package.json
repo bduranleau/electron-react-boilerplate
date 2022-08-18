@@ -1,7 +1,7 @@
 {
-  "name": "Electron-React-Boilerplate",
+  "name": "electron-react-boilerplate",
   "version": "1.0.0",
-  "description": "Template for a basic Electron-React App.",
+  "description": "A simple text editor",
   "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
