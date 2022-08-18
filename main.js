@@ -10,7 +10,7 @@ require('colors')                           // console colors
 
 const PORT = process.env.PORT || 3000                                   // read in port or 3000
 const NODE_ENV = (process.env.NODE_ENV || "development").toUpperCase()  // read in environment
-const APP_NAME = (process.env.APP_NAME || "text-editor").toUpperCase()  // read in app name
+const APP_NAME = (process.env.APP_NAME || "erb").toUpperCase()          // read in app name
 
 function createWindow() {
     const win = new BrowserWindow({
