@@ -1,3 +1,3 @@
-# TEXT EDITOR
+# Electron React Boilerplate
 
-A basic text editor app.
+Template for a basic Electron-React App. WYSIWYG.
